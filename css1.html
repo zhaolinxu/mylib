@@ -30,9 +30,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <style>
-      xmp {-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all;display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px;overflow-x:auto;}
-    </style>
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -72,17 +69,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li>
           <a href="index.html"><i class="fa fa-dashboard"></i> <span>常用网站</span> </a>
         </li>
-        <li class="treeview active">
+        <li class="treeview">
           <a href="#"><i class="fa  fa-html5"></i> <span>HTML</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
-            <li class="active"><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
+            <li><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
             <li><a href="html2.html"><i class="fa fa-circle-o"></i>效果</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="css.html"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
+        <li class="treeview active">
+          <a href="#"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
-            <li><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
+            <li class="active"><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
             <li><a href="css2.html"><i class="fa fa-circle-o"></i>片段</a></li>
           </ul>
         </li>
@@ -111,8 +108,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        布局
-        <small>页面布局</small>
+        常用Css收藏
+        <small>介绍</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
@@ -128,7 +125,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">iOS-使用自定义字体-苹方字体</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -138,12 +135,35 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <xmp>苹方提供了六个字重，font-family 定义如下：
+苹方-简 常规体
+font-family: PingFangSC-Regular, sans-serif;
+苹方-简 极细体
+font-family: PingFangSC-Ultralight, sans-serif;
+苹方-简 细体
+font-family: PingFangSC-Light, sans-serif;
+苹方-简 纤细体
+font-family: PingFangSC-Thin, sans-serif;
+苹方-简 中黑体
+font-family: PingFangSC-Medium, sans-serif;
+苹方-简 中粗体
+font-family: PingFangSC-Semibold, sans-serif;</xmp>
+              苹方除了简体的：苹方-简（PingFang SC），还为繁体用户提供有：苹方-繁（PingFang TC） ，苹方-港（PingFang HK）
+            <h3>苹方-繁 的 CSS font-family 使用：</h3>
+              <xmp>font-family: PingFangTC-Regular, sans-serif;
+font-family: PingFangTC-Ultralight, sans-serif;
+font-family: PingFangTC-Light, sans-serif;
+font-family: PingFangTC-Thin, sans-serif;
+font-family: PingFangTC-Medium, sans-serif;
+font-family: PingFangTC-Semibold, sans-serif;</xmp>
+              <h3>苹方-港 的 CSS font-family 使用：</h3>
+              <xmp>font-family: PingFangHK-Regular, sans-serif;
+font-family: PingFangHK-Ultralight, sans-serif;
+font-family: PingFangHK-Light, sans-serif;
+font-family: PingFangHK-Thin, sans-serif;
+font-family: PingFangHK-Medium, sans-serif;
+font-family: PingFangHK-Semibold, sans-serif;</xmp>
+           现在的项目中都会使用自定义字体，而iOS9其中的一项新特性就是用新的「苹方」字体替代了已经使用了几年的「华文黑体」，所以现在记录一下iOS如何导入并在项目中使用苹方字体的使用。
             </div>
             <!-- /.box-body -->
           </div>
@@ -155,7 +175,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-success collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">Css解决各类居中问题</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -165,12 +185,48 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+             CSS里实现水平居中非常容易，inline元素用text-align:center; block元素用margin:auto;就行了。
+              <h3>div中img水平居中：</h3>
+              <xmp>{ 
+  display:table;
+  margin:0 auto;
+}</xmp>
+            <h3>img与span水平对齐:</h3>
+              <xmp>{
+  display: flex; 
+  align-items:center;
+}</xmp>
+              <h3>div中div水平居中（不知宽度&设置position：absolute情况下）:</h3>
+              <xmp>{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}</xmp>
+              <h3>div中span垂直居中：</h3>
+              <xmp>{
+  vertical-align: middle;
+}</xmp>
+            <h3>Flex弹性盒子：用flex实现垂直居中（父元素body，子元素main）</h3>
+              <xmp>body{ 
+  display:flex; 
+  align-items:center; 
+}
+main{ 
+  display:flex;
+  align-items:center;
+  justify-content:center; 
+  flex-direction:column;
+}</xmp>
+              <h3>绝对定位：实现整体居中（已知宽高度情况下）</h3>
+              <xmp>main { 
+  position: absolute;
+  width: 18em;
+  height: 10em;
+  top: 50%;
+  left: 50%;
+  margin-top: -9em; 
+margin-left: -5em;
+}</xmp>
             </div>
             <!-- /.box-body -->
           </div>
@@ -219,7 +275,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <h3>CSS</h3>
+              <h3>CSS</h3>
               <xmp>1</xmp>
             <h3>HTML</h3>
               <xmp>2</xmp>

@@ -13,6 +13,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -31,7 +32,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
   <style>
-      xmp {-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all;display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px;overflow-x:auto;}
+      .table>tbody>tr>td{word-break: break-all;vertical-align: middle;}
     </style>
 </head>
 
@@ -72,32 +73,32 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li>
           <a href="index.html"><i class="fa fa-dashboard"></i> <span>常用网站</span> </a>
         </li>
-        <li class="treeview active">
+        <li class="treeview">
           <a href="#"><i class="fa  fa-html5"></i> <span>HTML</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
-            <li class="active"><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
+            <li><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
             <li><a href="html2.html"><i class="fa fa-circle-o"></i>效果</a></li>
           </ul>
         </li>
         <li class="treeview">
-          <a href="css.html"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <a href="#"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
             <li><a href="css2.html"><i class="fa fa-circle-o"></i>片段</a></li>
           </ul>
         </li>
         <li class="treeview">
-          <a href="js.html"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <a href="#"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="js1.html"><i class="fa fa-circle-o"></i>常用</a></li>
             <li><a href="js2.html"><i class="fa fa-circle-o"></i>片段</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-superscript"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
+        <li class="treeview  active">
+          <a href="#"><i class="fa fa-external-link"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="smallsite.html"><i class="fa fa-circle-o"></i>小网站</a></li>
-            <li><a href="muban.html"><i class="fa fa-circle-o"></i>我的模板</a></li>
+            <li class="active"><a href="muban.html"><i class="fa fa-circle-o"></i>我的模板</a></li>
           </ul>
         </li>
       </ul>
@@ -111,8 +112,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        布局
-        <small>页面布局</small>
+        项目导航
+        <small>公司项目静态页面地址整理。</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
@@ -124,114 +125,47 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <section class="content">
 
      <div class="row">
-<!--start-->
+    <!--start-->
         <div class="col-md-6">
-          <div class="box box-warning collapsed-box">
+          <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">其它页面</h3>
 
               <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
               </div>
               <!-- /.box-tools -->
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <table cellspacing=0 cellspadding=0 class="table table-bordered">
+			
+			<tr>
+				<th>项目名</th>
+				<th>页面描述</th>
+				<th>链接</th>
+			</tr>
+			<tr>
+				<td>暂无</td>
+				<td>暂无</td>
+				<td>
+					<a href="http://likexia.gitee.io/smallsite/2017/" target="_blank"></a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>暂无</td>
+				<td>暂无</td>
+				<td>
+					<a href="http://likexia.gitee.io/smallsite/2017/" target="_blank">#</a>
+				</td>
+			</tr>
+		</table>
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
-        <!--end-->
-        <!--start-->
-        <div class="col-md-6">
-          <div class="box box-success collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <!--end-->
-        <!--start-->
-        <div class="col-md-6">
-          <div class="box box-danger collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <!--end-->
-        <!--start-->
-        <div class="col-md-6">
-          <div class="box box-primary collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-             <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <!--end-->
+<!--end-->
         </div>
 
     </section>

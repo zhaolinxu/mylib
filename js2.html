@@ -23,24 +23,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
         apply the skin class to the body tag so the changes take effect.
   -->
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
-
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <style>
-      xmp {-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all;display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px;overflow-x:auto;}
-    </style>
 </head>
-
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-
   <!-- Main Header -->
   <header class="main-header">
-
     <!-- Logo -->
     <a href="index.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -48,7 +41,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>前端库</b></span>
     </a>
-
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
@@ -56,15 +48,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <span class="sr-only">Toggle navigation</span>
       </a>
       <!-- Navbar Right Menu -->
-      
     </nav>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
-
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
-
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu">
         <li class="header">前端导航</li>
@@ -97,6 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#"><i class="fa fa-superscript"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="smallsite.html"><i class="fa fa-circle-o"></i>小网站</a></li>
+            <li><a href="muban.html"><i class="fa fa-circle-o"></i>我的模板</a></li>
           </ul>
         </li>
       </ul>
@@ -104,7 +94,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </section>
     <!-- /.sidebar -->
   </aside>
-
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -118,17 +107,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li class="active">当前</li>
       </ol>
     </section>
-
     <!-- Main content -->
     <section class="content">
-
      <div class="row">
 <!--start-->
         <div class="col-md-6">
           <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">计算表格第一行除外，某一列数据的总和</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -155,7 +141,6 @@ $('table tr:not(:first) td:nth-child(2)').each(function () {
           <div class="box box-success collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">css3动画只执行一次的解决办法</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -182,7 +167,6 @@ $('table tr:not(:first) td:nth-child(2)').each(function () {
           <div class="box box-danger collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">遍历得到每个勾选的checkbox的value值</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -207,7 +191,6 @@ $('table tr:not(:first) td:nth-child(2)').each(function () {
           <div class="box box-primary collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">防止JS事件冒泡</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -238,7 +221,6 @@ $('table tr:not(:first) td:nth-child(2)').each(function () {
           <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">判断所有的图片元素是否都加载完了</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -268,7 +250,6 @@ $('image').on('load', increase);</xmp>
           <div class="box box-success collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">js判断客户端、浏览器</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -306,7 +287,6 @@ document.writeln(navigator.userAgent);</xmp>
               <xmp>var b_v = navigator.appVersion;
  var IE7 = b_v.search(/MSIE 7/i) != -1;
 if (IE7) {
-                   
 }</xmp>
            <h3>判断电脑还是手机方法1：</h3>
               <xmp>function IsPC() {
@@ -352,7 +332,6 @@ browserRedirect();</xmp>
           <div class="box box-danger collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">js动态循环批量加载图片</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -368,7 +347,6 @@ for (i = 1; i < 6; i++) {
     lotImg+="<img src='"+路径+"图片名_"+i+".jpg' />";
 }
 $(".game-content").append(lotImg);
-
 //获取子元素索引，切换时替换图标颜色
 var li_index = $(".menu-tips li").index($(".menu-tips li.tips-active")[0]);
 var img0=$(".menu-tips li:nth-child(1)");
@@ -401,7 +379,6 @@ if(li_index==2){
           <div class="box box-primary collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">input聚焦时自动滚动到该input的位置</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -424,7 +401,6 @@ if(li_index==2){
           <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">判断文字行数</h3>
-
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
                 </button>
@@ -434,22 +410,313 @@ if(li_index==2){
             <!-- /.box-header -->
             <div class="box-body">
               <xmp>var divHeight = $(".shop-top li.s-txt div").height();
-
 var lineHeight = $(".shop-top li.s-txt div").css("line-height");
-
 //过滤掉px
-
 lineHeight = /\d+/g.exec(lineHeight);
-
 var lineCount = divHeight / lineHeight;
-
 if(lineCount > 2) {
-
 $(".shop-top li.s-more a img").css("opacity", "1");
-
 $(".shop-top li.s-txt div").addClass("more");
-
 }</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-success collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">判断滚动一定距离后，把bar固定在顶部</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>$('.content').on('scroll', function(e) {
+    var scrollY = $(this).scrollTop(); // 获取垂直滚动的距离，即滚动了多少
+    if(scrollY > 44) { //如果滚动距离大于44px则隐藏，显示另一个fixed的bar
+        $('#cityHome .bar-touming').addClass('hide');
+        $('#cityHome .bar-chuxing-down').removeClass('hide');
+    } else {
+        $('#cityHome .bar-touming').removeClass('hide');
+        $('#cityHome .bar-chuxing-down').addClass('hide');
+    }
+});
+</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-danger collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">限制字符个数，超出显示...</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>$(“.zxx_text_overflow”).each(function(){
+    var maxwidth=23;
+    if($(this).text().length>maxwidth){
+        $(this).text($(this).text().substring(0,maxwidth));
+        $(this).html($(this).html()+’…’);
+    }
+});</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-primary collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">js获取当前时间(实时更新的)</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>
+//js 获取当前时间
+function fnDate(){
+    var date=new Date();
+    var year=date.getFullYear();//当前年份
+    var month=date.getMonth();//当前月份
+    var data=date.getDate();//天
+    var h=date.getHours();//小时
+    var minute=date.getMinutes();//分
+    var second=date.getSeconds();//秒
+    var time=fnW(h)+":"+fnW(minute)+":"+fnW(second);
+    document.write(time);//输出时间
+}
+//补位 当某个字段不是两位数时补0
+function fnW(str){
+    var num;
+    str>=10?num=str:num="0"+str;
+    return num;
+} 
+//调用
+setInterval(function(){
+    fnDate();
+},1000);
+//判断不同时间显示不同图片
+if(h>=6 && h<12)
+$("#home-bg").prop("src","images/home/home-bg2.jpg");
+if(h>=12 && h<18)
+$("#home-bg").prop("src","images/home/home-bg.jpg");
+if(h>=18 || h<6)
+$("#home-bg").prop("src","images/home/home-bg3.jpg");
+</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-warning collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">若干分钟倒计时效果</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+            <h3>HTML</h3>
+              <xmp><div class="time-item">
+    <!--<span id="day_show">0天</span>
+    <strong id="hour_show">0时</strong>-->
+    <strong id="minute_show">00</strong>:
+    <strong id="second_show">00</strong>
+</div></xmp>
+              <h3>JS</h3>
+              <xmp>var intDiff = parseInt(1800); //倒计时总秒数量
+function timer(intDiff) {
+    window.setInterval(function() {
+        var day = 0,
+            hour = 0,
+            minute = 0,
+            second = 0; //时间默认值       
+        if (intDiff > 0) {
+            day = Math.floor(intDiff / (60 * 60 * 24));
+            hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
+            minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
+            second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+        }
+        if (minute <= 9) minute = '0' + minute;
+        if (second <= 9) second = '0' + second;
+        $('#day_show').html(day + "天");
+        $('#hour_show').html('<s id="h"></s>' + hour + '');
+        $('#minute_show').html(minute + '');
+        $('#second_show').html(second + '');
+        intDiff--;
+    }, 1000);
+}
+$(function() {
+    timer(intDiff);
+});</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-success collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">取随机数</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>指定范围内的随机数</h3>
+              <xmp>function random(min, max) {
+    num=Math.floor(min + Math.random() * (max - min));
+    alert(num);
+}</xmp>
+              <h3>数组里面的数字随机显示</h3>
+              <xmp> var arr = ["1", "8","23","29","55"];
+//随机显示选择的效果
+var index = Math.floor((Math.random() * arr.length));
+var num = arr[index];
+alert(num);</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-danger collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">点击展开/收起</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>var count = 0;
+$('.action-event').click(function() {
+count++;
+if (count == 1) {
+$(".action-event").text("[展开]");
+$(".block-body").hide();
+$(this).parent().next("div.block-body").css("display", "block");
+$(this).text("[收起]");
+} else {
+$(".action-event").text("[展开]");
+$(".block-body").hide();
+//	$(this).parent().next("div.block-body").css("display", "block");
+//	$(this).text("[收起]");
+count = 0;
+}
+});</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-primary collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">点击图片换图片路径</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>$(".teacher-check").click(function(e){ 
+    $(this).attr('src',$(this).attr('src')=='images/check-on.png'?'images/check-off.png':'images/check-on.png');
+});</xmp>
+            <h3>JQuery1.9以前</h3>
+              <xmp>$("#id_play").toggle(
+	function(e){
+		$("#id_play").attr("src","images/stop.png");	
+	},function(e){
+		$("#id_play").attr("src","images/play.png");	
+	}
+);</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-warning collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">获取浏览器窗口的高度和宽度</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+             <h3>JQuery</h3>
+              <xmp>alert($(window).height()); //浏览器时下窗口可视区域高度 
+alert($(document).height()); //浏览器时下窗口文档的高度 
+alert($(document.body).height());//浏览器时下窗口文档body的高度 
+alert($(document.body).outerHeight(true));//浏览器时下窗口文档body的总高度 包括border padding margin 
+alert($(window).width()); //浏览器时下窗口可视区域宽度 
+alert($(document).width());//浏览器时下窗口文档对于象宽度 
+alert($(document.body).width());//浏览器时下窗口文档body的高度 
+alert($(document.body).outerWidth(true));//浏览器时下窗口文档body的总宽度 包括border padding margin 
+</xmp>
+           <h3>JS</h3>
+           <xmp>var mydiv=document.getElementById("video-div");
+var myPlayer=document.getElementById("v-player");
+myPlayer.style.width="720px";
+myPlayer.style.height="480px";
+myPlayer.style.margin="400px 40px ";
+mydiv.style.width=document.documentElement.clientWidth + 'px';
+mydiv.style.height=document.documentElement.clientHeight + 'px';</xmp>
             </div>
             <!-- /.box-body -->
           </div>
@@ -539,12 +806,10 @@ $(".shop-top li.s-txt div").addClass("more");
         <!-- /.col -->
         <!--end-->
         </div>
-
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-
   <!-- Main Footer -->
   <footer class="main-footer">
     <!-- To the right -->
@@ -554,22 +819,18 @@ $(".shop-top li.s-txt div").addClass("more");
     <!-- Default to the left -->
     <strong>Copyright &copy; 2017 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
-
 <!-- REQUIRED JS SCRIPTS -->
-
 <!-- jQuery 2.2.0 -->
 <script src="plugins/jQuery/jQuery-2.2.0.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/app.min.js"></script>
-
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the
