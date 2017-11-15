@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>前端库</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+        page. However, you can choose any other skin. Make sure you
+        apply the skin class to the body tag so the changes take effect.
+  -->
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style>
+      xmp {-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all;display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px;overflow-x:auto;}
+    </style>
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <!-- Main Header -->
+  <header class="main-header">
+
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>库</b></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>前端库</b></span>
+    </a>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <!-- Navbar Right Menu -->
+      
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu">
+        <li class="header">前端导航</li>
+        <!-- Optionally, you can add icons to the links -->
+        <li>
+          <a href="index.html"><i class="fa fa-dashboard"></i> <span>常用网站</span> </a>
+        </li>
+        <li class="treeview">
+          <a href="#"><i class="fa  fa-html5"></i> <span>HTML</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
+            <li><a href="html2.html"><i class="fa fa-circle-o"></i>效果</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="css.html"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
+            <li><a href="css2.html"><i class="fa fa-circle-o"></i>片段</a></li>
+          </ul>
+        </li>
+        <li class="treeview active">
+          <a href="js.html"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="js1.html"><i class="fa fa-circle-o"></i>常用</a></li>
+            <li class="active"><a href="js2.html"><i class="fa fa-circle-o"></i>片段</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-superscript"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="smallsite.html"><i class="fa fa-circle-o"></i>小网站</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        JS代码段
+        <small>常用JS代码段收藏</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
+        <li class="active">当前</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+     <div class="row">
+<!--start-->
+        <div class="col-md-6">
+          <div class="box box-warning collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">计算表格第一行除外，某一列数据的总和</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>var num=0,sum=0;
+$('table tr:not(:first) td:nth-child(2)').each(function () {
+        num = parseFloat($(this).html());
+        sum=num + sum;
+ console.log(sum);
+});</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-success collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">css3动画只执行一次的解决办法</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>$("ul li").click(function(){
+        $("#btn").removeClass().addClass("shake");
+        var set = setTimeout(function(){
+            $("#btn").removeClass();    
+        },1500)
+})</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-danger collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">遍历得到每个勾选的checkbox的value值</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>var arrChk = $("input[name='chk_student]:checked");
+    for (var i = 0; i < arrChk.length; i++) {
+    alert(arrChk[i].value);
+}</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-primary collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">防止JS事件冒泡</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>方法1：</h3>
+              <xmp>return false;</xmp>
+            <h3>方法2：</h3>
+              <xmp>event.stopPropagation(); </xmp>
+              <h3>方法3：</h3>
+              有时候点击提交按钮会有一些默认事件。比如跳转到别的界面。但是如果没有通过验证的话，就不应该跳转。
+这时候可以通过设置：
+              <xmp>event.preventDefault();</xmp>
+              return false 会把浏览器默认事件和冒泡干掉。
+              ev.preventDefualt(); 可以单独阻止默认事件。
+              ev.stopPropagation() 可以单独阻止冒泡。
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <div class="col-md-6">
+          <div class="box box-warning collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">判断所有的图片元素是否都加载完了</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>var counter = 0;
+var total = $('image').length;
+function increase() {
+      counter ++;
+      if (counter === total) {
+        //animate
+      }
+}
+$('image').on('load', increase);</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-success collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">js判断客户端、浏览器</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>var browser={
+    versions:function(){
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {         //移动终端浏览器版本信息
+                 trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+            };
+         }(),
+         language:(navigator.browserLanguage || navigator.language).toLowerCase()
+}
+ document.writeln("语言版本: "+browser.language);
+document.writeln(" 是否为移动终端: "+browser.versions.mobile);
+document.writeln(" ios终端: "+browser.versions.ios);
+document.writeln(" android终端: "+browser.versions.android);
+document.writeln(" 是否为iPhone: "+browser.versions.iPhone);
+document.writeln(" 是否iPad: "+browser.versions.iPad);
+document.writeln(navigator.userAgent);</xmp>
+            <h3>判断是否ie7</h3>
+              <xmp>var b_v = navigator.appVersion;
+ var IE7 = b_v.search(/MSIE 7/i) != -1;
+if (IE7) {
+                   
+}</xmp>
+           <h3>判断电脑还是手机方法1：</h3>
+              <xmp>function IsPC() {
+                var userAgentInfo = navigator.userAgent;
+                var Agents = ["Android", "iPhone",
+                    "SymbianOS", "Windows Phone",
+                    "iPad", "iPod"
+                ];
+                var flag = true;
+                for (var v = 0; v < Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+                return flag;
+            }</xmp>
+            <h3>判断电脑还是手机方法2：</h3>
+              <xmp>function browserRedirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase();
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+        window.location.href=B页面;
+    }
+}
+browserRedirect();</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-danger collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">js动态循环批量加载图片</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>i为图片编号</h3>
+              <xmp>
+var lotImg=""
+for (i = 1; i < 6; i++) {
+    lotImg+="<img src='"+路径+"图片名_"+i+".jpg' />";
+}
+$(".game-content").append(lotImg);
+
+//获取子元素索引，切换时替换图标颜色
+var li_index = $(".menu-tips li").index($(".menu-tips li.tips-active")[0]);
+var img0=$(".menu-tips li:nth-child(1)");
+var img1=$(".menu-tips li:nth-child(2)");
+var img2=$(".menu-tips li:nth-child(3)");
+if(li_index==0){
+    $(this).find("img").attr("src","../images/weixin/icon-order-on.png");
+    img1.find("img").attr("src","../images/weixin/icon-phone-off.png")
+    img2.find("img").attr("src","../images/weixin/icon-tousu-off.png");
+}
+if(li_index==1){
+    $(this).find("img").attr("src","../images/weixin/icon-phone-on.png");
+    img0.find("img").attr("src","../images/weixin/icon-order-off.png");
+    img2.find("img").attr("src","../images/weixin/icon-tousu-off.png");
+}
+if(li_index==2){
+    $(this).find("img").attr("src","../images/weixin/icon-tousu-on.png");
+    img1.find("img").attr("src","../images/weixin/icon-phone-off.png");
+    img0.find("img").attr("src","../images/weixin/icon-order-off.png");
+}</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-primary collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">input聚焦时自动滚动到该input的位置</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>$("input").on("focus",function(){
+    this.scrollIntoView();
+})</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <div class="col-md-6">
+          <div class="box box-warning collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">判断文字行数</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <xmp>var divHeight = $(".shop-top li.s-txt div").height();
+
+var lineHeight = $(".shop-top li.s-txt div").css("line-height");
+
+//过滤掉px
+
+lineHeight = /\d+/g.exec(lineHeight);
+
+var lineCount = divHeight / lineHeight;
+
+if(lineCount > 2) {
+
+$(".shop-top li.s-more a img").css("opacity", "1");
+
+$(".shop-top li.s-txt div").addClass("more");
+
+}</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-success collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">标题</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>CSS</h3>
+              <xmp>1</xmp>
+            <h3>HTML</h3>
+              <xmp>2</xmp>
+              <h3>JS</h3>
+              <xmp>3</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-danger collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">标题</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>CSS</h3>
+              <xmp>1</xmp>
+            <h3>HTML</h3>
+              <xmp>2</xmp>
+              <h3>JS</h3>
+              <xmp>3</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-primary collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">标题</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>CSS</h3>
+              <xmp>1</xmp>
+            <h3>HTML</h3>
+              <xmp>2</xmp>
+              <h3>JS</h3>
+              <xmp>3</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        </div>
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="pull-right hidden-xs">
+      Anything you want
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2017 <a href="#">Company</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED JS SCRIPTS -->
+
+<!-- jQuery 2.2.0 -->
+<script src="plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/app.min.js"></script>
+
+<!-- Optionally, you can add Slimscroll and FastClick plugins.
+     Both of these plugins are recommended to enhance the
+     user experience. Slimscroll is required when using the
+     fixed layout. -->
+</body>
+</html>
