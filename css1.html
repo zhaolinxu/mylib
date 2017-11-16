@@ -238,6 +238,133 @@ margin-left: -5em;
         <div class="col-md-6">
           <div class="box box-danger collapsed-box">
             <div class="box-header with-border">
+              <h3 class="box-title">文字颜色渐变</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>CSS</h3>
+              <xmp>.text-gradient {  
+    display: inline-block;
+    color: green;
+    font-size: 10em;
+    font-family: '微软雅黑';
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 128, 0, 1)), to(rgba(51, 51, 51, 1)));
+    /*多色渐变*/
+    /*background:-webkit-linear-gradient(left,#f00,#ff0 25%,#0f0 40%,#0ff 55%,#00f 70%,#f00);*/
+    -webkit-background-clip: text;/*只有webkit内核支持text的剪切模式*/
+    -webkit-text-fill-color: transparent;
+};</xmp>
+            <h3>HTML</h3>
+              <xmp><h2 class="text-gradient">文字渐变</h2></xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-primary collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">CSS3文字边框-webkit-text-stroke  </h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>CSS</h3>
+              <xmp>h3 {
+color: transparent;
+-webkit-text-stroke: 4px red;
+}</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-warning collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">CSS3禁选文本：user-select</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+             <h3>IE</h3>
+              <xmp>-ms-user-select 可设置 4 个值：
+text – 可以选择文本
+element – 可以选择文本，但选择范围受元素边界的约束
+none – 不可以选择文本
+auto – 如果该元素包含可编辑的文本（如输入元素或可编辑内容的元素），则可以选择文本。否则，元素内容是否可选择由父节点的值决定。</xmp>
+            <h3>火狐&谷歌</h3>
+              <xmp>谷歌：-webkit-user-select 
+火狐：-moz-user-select
+取值：
+auto   默认值，用户可以选中元素中的内容
+none  用户不能选择元素中的任何内容
+text   用户可以选择元素中的文本
+element  文本可选，但仅限元素的边界内(只有IE和FF支持)
+all   在编辑器内，如果双击/上下文点击发生在子元素上，改值的最高级祖先元素将被选中。
+-moz-none firefox私有，元素和子元素的文本将不可选，但是，子元素可以通过text重设回可选。</xmp>
+              <h3>JS</h3>
+              <xmp>3</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-success collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title">标题</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h3>CSS</h3>
+              <xmp>1</xmp>
+            <h3>HTML</h3>
+              <xmp>2</xmp>
+              <h3>JS</h3>
+              <xmp>3</xmp>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <!--end-->
+        <!--start-->
+        <div class="col-md-6">
+          <div class="box box-danger collapsed-box">
+            <div class="box-header with-border">
               <h3 class="box-title">标题</h3>
 
               <div class="box-tools pull-right">

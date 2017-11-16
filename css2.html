@@ -125,7 +125,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">CSS3滤镜效果:-webkit-filter </h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -135,12 +135,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <xmp>img{-webkit-filter:grayscale(1);//灰度100%效果
+-webkit-filter:blur(5px);  //模糊，此处为5像素
+-webkit-filter:sepia(0.5);  //叠加褐色，取值范围0-1，此处表示50%的褐色
+
+-webkit-filter:brightness(0.5);  //亮度，取值范围0-1，5倍亮度（数字为0时为正常样式，为1时表示的是100%亮度，无法看到图片）
+
+-webkit-filter:hue-rotate(30deg); //色相（按照色相环进行旋转，顺时针方向，红-橙-黄-黄绿-绿-蓝绿-蓝-蓝紫-紫-紫红-红）此处为叠加黄色滤镜
+
+-webkit-filter:invert(1);  //反色，取值范围0-1,0为原图，1为彻底反色之后，0.5为灰色
+-webkit-filter:saturate(4);  //饱和度，取值范围0~*,0为无饱和度，1为原图，值越高饱和度越大
+
+-webkit-filter:contrast(2);  //对比度，取值范围0~*,0为无对比度（灰色），1为原图，值越高对比度越大
+
+-webkit-filter:opacity(0.8);  //透明度，取值范围0~1,0为全透明，1为原图
+
+-webkit-filter:drop-shadow(17px 17px 20px black); //阴影
+}</xmp>
             </div>
             <!-- /.box-body -->
           </div>
