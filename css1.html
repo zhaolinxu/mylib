@@ -13,9 +13,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/font-awesome-4.7.0/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="dist/ionicons-2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
@@ -23,6 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         apply the skin class to the body tag so the changes take effect.
   -->
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -518,7 +519,7 @@ all   在编辑器内，如果双击/上下文点击发生在子元素上，改�
         <div class="col-md-6">
           <div class="box box-danger collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">CSS实现单行、多行文本溢出显示省略号（…）</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -528,12 +529,15 @@ all   在编辑器内，如果双击/上下文点击发生在子元素上，改�
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <h3>单行</h3>
+              <xmp>{overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}</xmp>
+            <h3>多行</h3>
+              <xmp>{display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;}</xmp>
             </div>
             <!-- /.box-body -->
           </div>

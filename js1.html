@@ -23,6 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         apply the skin class to the body tag so the changes take effect.
   -->
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -108,7 +109,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        标题
+        常用JS
         <small>介绍</small>
       </h1>
       <ol class="breadcrumb">
@@ -125,7 +126,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">JQuery请求接口数据</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -135,12 +136,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <xmp>var url = "http://coffee.migu.cn/migutest/migu/app/api/gzexporeport";
+$.post(url, {}, function(data, textStatus) {
+	console.log(data.info)
+	console.log(data.data.kindle1)
+}, "json");</xmp>
             </div>
             <!-- /.box-body -->
           </div>
@@ -152,7 +152,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-success collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">微信页面真实高度</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -162,12 +162,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+             <h3>除去标题栏，页面高度</h3>
+              <xmp>alert(window.innerHeight)</xmp>
+              <h3>微信标题栏高度</h3>
+              <xmp>alert(window.screen.height - window.innerHeight)</xmp>
             </div>
             <!-- /.box-body -->
           </div>
@@ -179,7 +177,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-danger collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">CheckBox全选/反选/至少选1个</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -189,12 +187,48 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+             <h3>全选/反选</h3>
+              <xmp>$(".check-all").click(function() {
+    if($(this).is(':checked')) {
+        $('input[type="checkbox"]').each(function() {
+            $(this).prop("checked", true);
+        });
+    } else {
+        $('input[type="checkbox"]').each(function() {
+            $(this).removeAttr("checked", false);
+        });
+    }
+});</xmp>
+           <h3>至少勾选一个才能提交</h3>
+           <xmp>var num = 0;
+$("#btn_submit").click(function() {
+	$('input[type="checkbox"]').each(function() {
+		if($(this).is(':checked')) {
+			num += 1;
+		}
+	});
+	console.log(num);
+	//必须勾选一个
+	if(num != 0) {
+		alert("至少选一个");
+		num=0;
+	} else {
+		alert("可以提交");
+	}
+});</xmp>
+           <h3>点击行，勾选</h3>
+           <xmp>$("tr").click(function(){
+	//排除全选框
+	if(!$(this).find("td input[type='checkbox']").is(":checked")){
+		$(this).find("td input[type='checkbox']").prop("checked",true);
+	}else{
+		$(this).find("td input[type='checkbox']").prop("checked",false);
+	}
+	//防止点checkbox冒泡
+	$("input[type='checkbox']").click(function(e) {
+				e.stopPropagation();
+			});
+});</xmp>
             </div>
             <!-- /.box-body -->
           </div>
