@@ -186,7 +186,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-danger collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">去除谷歌浏览器input自动填充黄色背景</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -196,12 +196,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <xmp>input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}</xmp>
             </div>
             <!-- /.box-body -->
           </div>
@@ -213,7 +210,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="col-md-6">
           <div class="box box-primary collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">placeholder颜色</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -223,12 +220,27 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <h3>默认</h3>
+              <xmp>::-webkit-input-placeholder {
+	/* WebKit browsers*/
+	color: #aaaaaa;
+}
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18*/
+	color: #aaaaaa;
+}
+::-moz-placeholder {
+	/* Mozilla Firefox 19+*/
+	color: #aaaaaa;
+}
+:-ms-input-placeholder {
+	/* Internet Explorer 10+*/
+	color: #aaaaaa;
+}</xmp>
+            <h3>聚焦</h3>
+              <xmp>input:focus::-webkit-input-placeholder {
+	color: #EEEEEE;
+}</xmp>
             </div>
             <!-- /.box-body -->
           </div>
