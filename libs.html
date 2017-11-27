@@ -13,6 +13,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -23,6 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         apply the skin class to the body tag so the changes take effect.
   -->
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+		<link rel="shortcut icon" href="http://likexia.gitee.io/tools/lib/img/h5.png" type="image/x-icon">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,8 +32,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  
-		<link rel="shortcut icon" href="http://likexia.gitee.io/tools/lib/img/h5.png" type="image/x-icon">
+  <style>
+      .table>tbody>tr>td{word-break: break-all;vertical-align: middle;}
+    </style>
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -71,32 +74,32 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li>
           <a href="index.html"><i class="fa fa-dashboard"></i> <span>常用网站</span> </a>
         </li>
-        <li class="treeview active">
+        <li class="treeview">
           <a href="#"><i class="fa  fa-html5"></i> <span>HTML</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
-            <li class="active"><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
+            <li><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
             <li><a href="html2.html"><i class="fa fa-circle-o"></i>效果</a></li>
           </ul>
         </li>
         <li class="treeview">
-          <a href="css.html"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <a href="#"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
             <li><a href="css2.html"><i class="fa fa-circle-o"></i>片段</a></li>
           </ul>
         </li>
         <li class="treeview">
-          <a href="js.html"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <a href="#"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="js1.html"><i class="fa fa-circle-o"></i>常用</a></li>
             <li><a href="js2.html"><i class="fa fa-circle-o"></i>片段</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-superscript"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
+        <li class="treeview  active">
+          <a href="#"><i class="fa fa-external-link"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
           <ul class="treeview-menu">
             <li><a href="smallsite.html"><i class="fa fa-circle-o"></i>项目</a></li>
-            <li><a href="libs.html"><i class="fa fa-circle-o"></i>公用库</a></li>
+            <li class="active"><a href="libs.html"><i class="fa fa-circle-o"></i>公用库</a></li>
             <li><a href="muban.html"><i class="fa fa-circle-o"></i>我的模板</a></li>
           </ul>
         </li>
@@ -111,8 +114,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        标题
-        <small>介绍</small>
+        公共库
+        <small>自己的在线文件公共库。</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
@@ -124,114 +127,119 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <section class="content">
 
      <div class="row">
-<!--start-->
-        <div class="col-md-6">
-          <div class="box box-warning collapsed-box">
+     <!--start-->
+        <div class="col-md-12">
+          <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">常用JS库</h3>
 
               <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
               </div>
               <!-- /.box-tools -->
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <table cellspacing=0 cellspadding=0 class="table table-bordered">
+			
+			<tr>
+				<th>名称</th>
+				<th>描述</th>
+				<th>链接</th>
+			</tr>
+			<tr>
+				<td>JQuery</td>
+				<td>v2.1.1</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/js/jquery.min.js" target="_blank">http://likexia.gitee.io/tools/lib/js/jquery.min.js</a>
+				</td>
+			</tr>
+			<tr>
+				<td>prefixfree.min.js</td>
+				<td>自动补全浏览器兼容前缀</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/js/prefixfree.min.js" target="_blank">http://likexia.gitee.io/tools/lib/js/prefixfree.min.js</a>
+				</td>
+			</tr>
+			<tr>
+				<td>暂无</td>
+				<td>暂无</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/js/" target="_blank">#</a>
+				</td>
+			</tr>
+<!--
+			<tr>
+				<td>暂无</td>
+				<td>暂无</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/js/" target="_blank">#</a>
+				</td>
+			</tr>
+-->
+		</table>
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
-        <!--end-->
-        <!--start-->
-        <div class="col-md-6">
-          <div class="box box-success collapsed-box">
+<!--end-->
+   <!--start-->
+        <div class="col-md-12">
+          <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
+              <h3 class="box-title">常用CSS库</h3>
 
               <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
               </div>
               <!-- /.box-tools -->
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
+              <table cellspacing=0 cellspadding=0 class="table table-bordered">
+			
+			<tr>
+				<th>名称</th>
+				<th>描述</th>
+				<th>链接</th>
+			</tr>
+			<tr>
+				<td>animate.min.css</td>
+				<td>css3动画库</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/css/animate.min.css" target="_blank">http://likexia.gitee.io/tools/lib/css/animate.min.css</a>
+				</td>
+			</tr>
+			<tr>
+				<td>media.css</td>
+				<td>@media标签适配</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/css/media.css" target="_blank">http://likexia.gitee.io/tools/lib/css/media.css</a>
+				</td>
+			</tr>
+			<tr>
+				<td>core.css</td>
+				<td>轻量级的CSS reset和栅格系统。【<a href="http://likexia.gitee.io/tools/muban/layout/core.css.html" target="_blank">示例</a>】</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/css/core.min.css" target="_blank">http://likexia.gitee.io/tools/lib/css/core.min.css</a>
+				</td>
+			</tr>
+<!--
+			<tr>
+				<td>暂无</td>
+				<td>暂无</td>
+				<td>
+					<a href="http://likexia.gitee.io/tools/lib/css/" target="_blank">#</a>
+				</td>
+			</tr>
+-->
+		</table>
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
-        <!--end-->
-        <!--start-->
-        <div class="col-md-6">
-          <div class="box box-danger collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <!--end-->
-        <!--start-->
-        <div class="col-md-6">
-          <div class="box box-primary collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title">标题</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <h3>CSS</h3>
-              <xmp>1</xmp>
-            <h3>HTML</h3>
-              <xmp>2</xmp>
-              <h3>JS</h3>
-              <xmp>3</xmp>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <!--end-->
+<!--end-->
+    
         </div>
 
     </section>
