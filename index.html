@@ -4,862 +4,951 @@ This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>前端库</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-  <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>前端库</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
         page. However, you can choose any other skin. Make sure you
         apply the skin class to the body tag so the changes take effect.
   -->
-  <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+    <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
   <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  
-		<link rel="shortcut icon" href="http://likexia.gitee.io/tools/lib/img/h5.png" type="image/x-icon">
-  <style>
-      xmp {-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all;display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px;overflow-x:auto;}
+
+    <link rel="shortcut icon" href="http://likexia.gitee.io/tools/lib/img/h5.png" type="image/x-icon">
+    <style>
+        xmp {
+            -webkit-user-select: all;
+            -moz-user-select: all;
+            -ms-user-select: all;
+            user-select: all;
+            display: block;
+            padding: 9.5px;
+            margin: 0 0 10px;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #333;
+            word-break: break-all;
+            word-wrap: break-word;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+
     </style>
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
+    <div class="wrapper">
 
-  <!-- Main Header -->
-  <header class="main-header">
+        <!-- Main Header -->
+        <header class="main-header">
 
-    <!-- Logo -->
-    <a href="index.html" class="logo">
-      <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>库</b></span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>前端库</b></span>
-    </a>
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>库</b></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>前端库</b></span>
+            </a>
 
-    <!-- Header Navbar -->
-    <nav class="navbar navbar-static-top" role="navigation">
-      <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
-      <!-- Navbar Right Menu -->
-      
-    </nav>
-  </header>
-  <!-- Left side column. contains the logo and sidebar -->
-  <aside class="main-sidebar">
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <!-- Navbar Right Menu -->
 
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
 
-      <!-- Sidebar Menu -->
-      <ul class="sidebar-menu">
-        <li class="header">前端导航</li>
-        <!-- Optionally, you can add icons to the links -->
-        <li class=" active">
-          <a href="index.html"><i class="fa fa-dashboard"></i> <span>常用网站</span> </a>
-        </li>
-        <li class="treeview">
-          <a href="#"><i class="fa  fa-html5"></i> <span>HTML</span> <i class="fa fa-angle-left pull-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
-            <li><a href="html2.html"><i class="fa fa-circle-o"></i>效果</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="css.html"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
-            <li><a href="css2.html"><i class="fa fa-circle-o"></i>片段</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="js.html"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a href="js1.html"><i class="fa fa-circle-o"></i>常用</a></li>
-            <li><a href="js2.html"><i class="fa fa-circle-o"></i>片段</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-superscript"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a href="smallsite.html"><i class="fa fa-circle-o"></i>项目</a></li>
-            <li><a href="libs.html"><i class="fa fa-circle-o"></i>公用库</a></li>
-            <li><a href="muban.html"><i class="fa fa-circle-o"></i>我的模板</a></li>
-          </ul>
-        </li>
-      </ul>
-      <!-- /.sidebar-menu -->
-    </section>
-    <!-- /.sidebar -->
-  </aside>
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
+                <!-- Sidebar Menu -->
+                <ul class="sidebar-menu">
+                    <li class="header">前端导航</li>
+                    <!-- Optionally, you can add icons to the links -->
+                    <li class=" active">
+                        <a href="index.html"><i class="fa fa-dashboard"></i> <span>常用网站</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"><i class="fa  fa-html5"></i> <span>HTML</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li><a href="html1.html"><i class="fa fa-circle-o"></i>布局</a></li>
+                            <li><a href="html2.html"><i class="fa fa-circle-o"></i>效果</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="css.html"><i class="fa fa-css3"></i> <span>CSS</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li><a href="css1.html"><i class="fa fa-circle-o"></i>常用</a></li>
+                            <li><a href="css2.html"><i class="fa fa-circle-o"></i>片段</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="js.html"><i class="fa  fa-superscript"></i> <span>JS</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li><a href="js1.html"><i class="fa fa-circle-o"></i>常用</a></li>
+                            <li><a href="js2.html"><i class="fa fa-circle-o"></i>片段</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-superscript"></i> <span>项目导航</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li><a href="smallsite.html"><i class="fa fa-circle-o"></i>项目</a></li>
+                            <li><a href="libs.html"><i class="fa fa-circle-o"></i>公用库</a></li>
+                            <li><a href="muban.html"><i class="fa fa-circle-o"></i>我的模板</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /.sidebar-menu -->
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <h1>
         常用网站
         <small>收录前端常用的网站</small>
       </h1>
-      <ol class="breadcrumb">
-        <li><a href="index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
-        <li class="active">当前</li>
-      </ol>
-    </section>
+                <ol class="breadcrumb">
+                    <li><a href="index.html"><i class="fa fa-dashboard"></i> 首页</a></li>
+                    <li class="active">当前</li>
+                </ol>
+            </section>
 
-    <!-- Main content -->
-    <section class="content">
+            <!-- Main content -->
+            <section class="content">
 
-     <div class="row">
-       <div class="col-md-12">
-          <!-- Application buttons -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <h3 class="box-title">前端资源网站</h3>
-            </div>
-            <div class="box-body">
-              <p>各种前端资源网站，强烈推荐！</p>
-               <a class="btn btn-app" href="http://hao.shejidaren.com/" target="_blank">
-                <b>设计导航</b>
-                <div>各种好站、好资源、好工具</div>
-              </a>
-              <a class="btn btn-app" href="https://www.awesomes.cn/" target="_blank">
-                <b>awesomes</b>
-                <div>给国内用户提供前端Github库的归档和中文文档</div>
-              </a>
-              <a class="btn btn-app" href="http://www.qdfuns.com/" target="_blank">
-                <b>前端网</b>
-                <div>专注于Web前端开发行业的综合性门户网站</div>
-              </a>
-               <a class="btn btn-app" href="http://www.gbtags.com/gb/listcodereplay.htm" target="_blank">
-                <b>极客标签</b>
-                <div>轻量级注重实战互动学习的在线编程自学和直播平台</div>
-              </a>
-<!--
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Application buttons -->
+                        <div class="box box-danger">
+                            <div class="box-header">
+                                <h3 class="box-title">前端资源网站</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>各种前端资源网站，强烈推荐！</p>
+                                <a class="btn btn-app" href="http://hao.shejidaren.com/" target="_blank">
+                                    <b>设计导航</b>
+                                    <div>各种好站、好资源、好工具</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.awesomes.cn/" target="_blank">
+                                    <b>awesomes</b>
+                                    <div>给国内用户提供前端Github库的归档和中文文档</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.qdfuns.com/" target="_blank">
+                                    <b>前端网</b>
+                                    <div>专注于Web前端开发行业的综合性门户网站</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.gbtags.com/gb/listcodereplay.htm" target="_blank">
+                                    <b>极客标签</b>
+                                    <div>轻量级注重实战互动学习的在线编程自学和直播平台</div>
+                                </a>
+                                <!--
                <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-warning">
-            <div class="box-header">
-              <h3 class="box-title">Html在线工具</h3>
-            </div>
-            <div class="box-body">
-              <p>一些前端常用的在线工具。</p>
-              
-              <a class="btn btn-app" href="http://likexia.gitee.io/tools/screen.html" target="_blank">
-                <b>检测屏幕尺寸</b>
-                <div>检测当前设备屏幕大小</div>
-              </a>
-              <a class="btn btn-app" href="http://tool.lanrentuku.com/jsformat/" target="_blank">
-                <b>懒人图库</b>
-                <div>Js、html格式化</div>
-              </a>
-              <a class="btn btn-app" href="http://tool.chinaz.com/Tools/CssFormat.aspx" target="_blank">
-                <b>站长工具</b>
-                <div>css格式化</div>
-              </a>
-              <a class="btn btn-app" href="http://www.w3school.com.cn/tiy/t.asp?f=html_doctype" target="_blank">
-                <b>w3school编辑器</b>
-                <div>html在线编辑运行</div>
-              </a>
-              <a class="btn btn-app" href="http://jsrun.net/new" target="_blank">
-                <b>runjs</b>
-                <div>html、css、js</div>
-              </a>
-              <a class="btn btn-app" href="jsfiddle" target="_blank">
-                <b>jsfiddle</b>
-                <div>国外的html、css、js</div>
-              </a>
-              <a class="btn btn-app" href="https://labs.lukepeters.me/csspad/" target="_blank">
-                <b>在线编辑器</b>
-                <div>css、html</div>
-              </a>
-              <a class="btn btn-app" href="http://paste.ubuntu.com/" target="_blank">
-                <b>ubuntu粘贴板</b>
-                <div>可以快速把大段文字保存分享给别人</div>
-              </a>
-              <a class="btn btn-app" href="http://tool.chinaz.com/tools/htmlchar.aspx" target="_blank">
-                <b>HTML特殊符号表</b>
-                <div>HTML 特殊符号编码对照表</div>
-              </a>
-              <a class="btn btn-app" href="http://tool.chinaz.com/htmlcheck.aspx" target="_blank">
-                <b>HTML标签闭合性检测</b>
-                <div>分析html，提示出错的地方</div>
-              </a>
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-<!--
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <h3 class="box-title">Html在线工具</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>一些前端常用的在线工具。</p>
+
+                                <a class="btn btn-app" href="http://likexia.gitee.io/tools/screen.html" target="_blank">
+                                    <b>检测屏幕尺寸</b>
+                                    <div>检测当前设备屏幕大小</div>
+                                </a>
+                                <a class="btn btn-app" href="http://tool.lanrentuku.com/jsformat/" target="_blank">
+                                    <b>懒人图库</b>
+                                    <div>Js、html格式化</div>
+                                </a>
+                                <a class="btn btn-app" href="http://tool.chinaz.com/Tools/CssFormat.aspx" target="_blank">
+                                    <b>站长工具</b>
+                                    <div>css格式化</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.w3school.com.cn/tiy/t.asp?f=html_doctype" target="_blank">
+                                    <b>w3school编辑器</b>
+                                    <div>html在线编辑运行</div>
+                                </a>
+                                <a class="btn btn-app" href="http://jsrun.net/new" target="_blank">
+                                    <b>runjs</b>
+                                    <div>html、css、js</div>
+                                </a>
+                                <a class="btn btn-app" href="jsfiddle" target="_blank">
+                                    <b>jsfiddle</b>
+                                    <div>国外的html、css、js</div>
+                                </a>
+                                <a class="btn btn-app" href="http://paste.ubuntu.com/" target="_blank">
+                                    <b>ubuntu粘贴板</b>
+                                    <div>可以快速把大段文字保存分享给别人</div>
+                                </a>
+                                <a class="btn btn-app" href="http://tool.chinaz.com/tools/htmlchar.aspx" target="_blank">
+                                    <b>HTML特殊符号表</b>
+                                    <div>HTML 特殊符号编码对照表</div>
+                                </a>
+                                <a class="btn btn-app" href="http://tool.chinaz.com/htmlcheck.aspx" target="_blank">
+                                    <b>HTML标签闭合性检测</b>
+                                    <div>分析html，提示出错的地方</div>
+                                </a>
+                                
+                                <a class="btn btn-app" href="https://labs.lukepeters.me/csspad/" target="_blank">
+                                    <b>在线编辑器</b>
+                                    <div>css、html</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.useragentstring.com/pages/useragentstring.php" target="_blank">
+                                    <b>各种版本浏览器内核代码</b>
+                                    <div>User Agent</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.esolutions.se/whatsmyinfo" target="_blank">
+                                    <b>查看当前浏览器内核</b>
+                                    <div>查看当前浏览器内核</div>
+                                </a>
+                                <a class="btn btn-app" href="https://ie.icoa.cn/" target="_blank">
+                                    <b>浏览器内核检测</b>
+                                    <div>查看当前浏览器内核</div>
+                                </a>
+                                <!--
               <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-success">
-            <div class="box-header">
-              <h3 class="box-title">CSS在线工具</h3>
-            </div>
-            <div class="box-body">
-              <p>一些前端常用的在线工具。</p>
-              <a class="btn btn-app" href="http://likexia.gitee.io/tools/colors/rgb-to-hex.html" target="_blank">
-                <b>RBG/HEX色互转</b>
-                <div>在线RGB三原色-HEX16色转换</div>
-              </a>
-              <a class="btn btn-app" href="https://www.w3cways.com/css3-animation-tool" target="_blank">
-                <b>Css3动画</b>
-                <div>Css3动画在线生成</div>
-              </a>
-              <a class="btn btn-app" href="http://enjoycss.com/" target="_blank">
-                <b>Css代码生成</b>
-                <div>各种css代码都可以生成</div>
-              </a>
-              <a class="btn btn-app" href="http://anicollection.github.io/" target="_blank">
-                <b>Css3动画</b>
-                <div>可以预览、生成代码</div>
-              </a>
-              <a class="btn btn-app" href="http://pxtoem.com/" target="_blank">
-                <b>px转em</b>
-                <div>PX到EM转换变得简单</div>
-              </a>
-              <a class="btn btn-app" href="http://jeremyckahn.github.io/stylie/" target="_blank">
-                <b>Css3运动轨迹</b>
-                <div>Css3运动轨迹在线生成</div>
-              </a>
-              <a class="btn btn-app" href="http://border-radius.com/" target="_blank">
-                <b>Css3圆角生成</b>
-                <div>可视化生成圆角</div>
-              </a>
-              <a class="btn btn-app" href="https://www.htmllion.com/css3-linear-gradients-tool.html" target="_blank">
-                <b>Css3渐变</b>
-                <div>Css3渐变在线生成</div>
-              </a>
-               <a class="btn btn-app" href="https://icons8.com/csstool" target="_blank">
-                <b>Css3效果生成</b>
-                <div>渐变、圆角、阴影等</div>
-              </a>
-              <a class="btn btn-app" href="http://pleeease.io/play/" target="_blank">
-                <b>Css加兼容前缀</b>
-                <div>介绍</div>
-              </a>
-               <a class="btn btn-app" href="http://www.bestcssbuttongenerator.com/" target="_blank">
-                <b>CSS按钮生成器</b>
-                <div>在线生成各种按钮</div>
-              </a>
-<!--
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-success">
+                            <div class="box-header">
+                                <h3 class="box-title">CSS在线工具</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>一些前端常用的在线工具。</p>
+                                <a class="btn btn-app" href="http://likexia.gitee.io/tools/colors/rgb-to-hex.html" target="_blank">
+                                    <b>RBG/HEX色互转</b>
+                                    <div>在线RGB三原色-HEX16色转换</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.w3cways.com/css3-animation-tool" target="_blank">
+                                    <b>Css3动画</b>
+                                    <div>Css3动画在线生成</div>
+                                </a>
+                                <a class="btn btn-app" href="http://enjoycss.com/" target="_blank">
+                                    <b>Css代码生成</b>
+                                    <div>各种css代码都可以生成</div>
+                                </a>
+                                <a class="btn btn-app" href="http://anicollection.github.io/" target="_blank">
+                                    <b>Css3动画</b>
+                                    <div>可以预览、生成代码</div>
+                                </a>
+                                <a class="btn btn-app" href="http://pxtoem.com/" target="_blank">
+                                    <b>px转em</b>
+                                    <div>PX到EM转换变得简单</div>
+                                </a>
+                                <a class="btn btn-app" href="http://jeremyckahn.github.io/stylie/" target="_blank">
+                                    <b>Css3运动轨迹</b>
+                                    <div>Css3运动轨迹在线生成</div>
+                                </a>
+                                <a class="btn btn-app" href="http://border-radius.com/" target="_blank">
+                                    <b>Css3圆角生成</b>
+                                    <div>可视化生成圆角</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.htmllion.com/css3-linear-gradients-tool.html" target="_blank">
+                                    <b>Css3渐变</b>
+                                    <div>Css3渐变在线生成</div>
+                                </a>
+                                <a class="btn btn-app" href="https://icons8.com/csstool" target="_blank">
+                                    <b>Css3效果生成</b>
+                                    <div>渐变、圆角、阴影等</div>
+                                </a>
+                                <a class="btn btn-app" href="http://pleeease.io/play/" target="_blank">
+                                    <b>Css加兼容前缀</b>
+                                    <div>介绍</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.bestcssbuttongenerator.com/" target="_blank">
+                                    <b>CSS按钮生成器</b>
+                                    <div>在线生成各种按钮</div>
+                                </a>
+                                <a class="btn btn-app" href="https://webgradients.com/" target="_blank" title="作为2017最火设计趋势之一的渐变，受到了无数人的青睐。本站提供了大量的渐变配色方案，提供免费的在线预览以及png/skech/psd格式的下载。">
+                                    <b>渐变配色方案</b>
+                                    <div>在线预览以及CSS/png/sd格式的下载</div>
+                                </a>
+                                <!--
                <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">图标/图片在线工具</h3>
-            </div>
-            <div class="box-body">
-              <p>常用图片在线工具。</p>
-              
-              <a class="btn btn-app" href="https://tinypng.com/" target="_blank">
-                <b>图片在线压缩</b>
-                <div>支持.jpg和.png</div>
-              </a>
-              <a class="btn btn-app" href="http://zhitu.isux.us/" target="_blank">
-                <b>腾讯智图</b>
-                <div>图片优化压缩平台</div>
-              </a>
-               <a class="btn btn-app" href="http://www.gbtags.com/gb/gblaitu.htm" target="_blank">
-                <b>来图</b>
-                <div>占位图片生成工具</div>
-              </a>
-              <a class="btn btn-app" href="https://www.ico.la/" target="_blank">
-                <b>ico图标制作</b>
-                <div>在线ico图标制作</div>
-              </a>
-              <a class="btn btn-app" href="https://icons8.com/preloaders/" target="_blank">
-                <b>Loading素材</b>
-                <div>各种各样“加载中”素材</div>
-              </a>
-              <a class="btn btn-app" href="http://likexia.gitee.io/tools/imgfilter/" target="_blank">
-                <b>图片处理</b>
-                <div>各种滤镜效果</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/jayankaghosh/chobi" target="_blank">
-                <b>chobi.js</b>
-                <div>在线给图片加滤镜效果</div>
-              </a>
-<!--
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title">图标/图片在线工具</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>常用图片在线工具。</p>
+
+                                <a class="btn btn-app" href="https://tinypng.com/" target="_blank">
+                                    <b>图片在线压缩</b>
+                                    <div>支持.jpg和.png</div>
+                                </a>
+                                <a class="btn btn-app" href="http://zhitu.isux.us/" target="_blank">
+                                    <b>腾讯智图</b>
+                                    <div>图片优化压缩平台</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.gbtags.com/gb/gblaitu.htm" target="_blank">
+                                    <b>来图</b>
+                                    <div>占位图片生成工具</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.ico.la/" target="_blank">
+                                    <b>ico图标制作</b>
+                                    <div>在线ico图标制作</div>
+                                </a>
+                                <a class="btn btn-app" href="https://icons8.com/preloaders/" target="_blank">
+                                    <b>Loading素材</b>
+                                    <div>各种各样“加载中”素材</div>
+                                </a>
+                                <a class="btn btn-app" href="http://likexia.gitee.io/tools/imgfilter/" target="_blank">
+                                    <b>图片处理</b>
+                                    <div>各种滤镜效果</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/jayankaghosh/chobi" target="_blank">
+                                    <b>chobi.js</b>
+                                    <div>在线给图片加滤镜效果</div>
+                                </a>
+                                <!--
               <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <h3 class="box-title">其它在线工具</h3>
-            </div>
-            <div class="box-body">
-              <p>常用在线工具。</p>
-              <a class="btn btn-app" href="https://cli.im/" target="_blank">
-                <b>草料二维码</b>
-                <div>二维码在线生成、美化</div>
-              </a>
-              <a class="btn btn-app" href="http://dwz.cn/" target="_blank">
-                <b>百度短网址</b>
-                <div>把链接变成短网址</div>
-              </a>
-              <a class="btn btn-app" href="http://dwz.wailian.work/index.php" target="_blank">
-                <b>新浪短网址</b>
-                <div>把链接变成短网址</div>
-              </a>
-              <a class="btn btn-app" href="http://www.mingmu.net/zishu.html" target="_blank">
-                <b>字数统计</b>
-                <div>在线字数计算器</div>
-              </a>
-              <a class="btn btn-app" href="http://screensiz.es/" target="_blank">
-                <b>屏幕尺寸大全</b>
-                <div>PC、移动端各种设备尺寸大全</div>
-              </a>
-              <a class="btn btn-app" href="http://app.xunjiepdf.com/pdf2word" target="_blank">
-                <b>pdf转word</b>
-                <div>在线pdf转word</div>
-              </a>
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-primary">
-            <div class="box-header">
-              <h3 class="box-title">协作平台</h3>
-            </div>
-            <div class="box-body">
-              <p>在线多人协作工作平台。</p>
-              <a class="btn btn-app" href="https://lanhuapp.com/" target="_blank">
-                <b>蓝湖</b>
-                <div>在线标注、产品设计协作平台</div>
-              </a>
-              
-              <a class="btn btn-app" href="https://shimo.im/" target="_blank">
-                <b>石墨文档</b>
-                <div>多人实时协作文档、表格</div>
-              </a>
-              <a class="btn btn-app" href="https://note.youdao.com/group/" target="_blank">
-                <b>有道云协作</b>
-                <div>高效团队必备工具</div>
-              </a>
-              <a class="btn btn-app" href="http://naotu.baidu.com/" target="_blank">
-                <b>百度脑图</b>
-                <div>在线画流程图</div>
-              </a>
-              <a class="btn btn-app" href="https://modao.cc/" target="_blank">
-                <b>墨刀</b>
-                <div>强大易用的原型设计与协同工具</div>
-              </a>
-<!--
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-danger">
+                            <div class="box-header">
+                                <h3 class="box-title">其它在线工具</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>常用在线工具。</p>
+                                <a class="btn btn-app" href="https://cli.im/" target="_blank">
+                                    <b>草料二维码</b>
+                                    <div>二维码在线生成、美化</div>
+                                </a>
+                                <a class="btn btn-app" href="http://dwz.cn/" target="_blank">
+                                    <b>百度短网址</b>
+                                    <div>把链接变成短网址</div>
+                                </a>
+                                <a class="btn btn-app" href="http://dwz.wailian.work/index.php" target="_blank">
+                                    <b>新浪短网址</b>
+                                    <div>把链接变成短网址</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.mingmu.net/zishu.html" target="_blank">
+                                    <b>字数统计</b>
+                                    <div>在线字数计算器</div>
+                                </a>
+                                <a class="btn btn-app" href="http://screensiz.es/" target="_blank">
+                                    <b>屏幕尺寸大全</b>
+                                    <div>PC、移动端各种设备尺寸大全</div>
+                                </a>
+                                <a class="btn btn-app" href="http://app.xunjiepdf.com/pdf2word" target="_blank">
+                                    <b>pdf转word</b>
+                                    <div>在线pdf转word</div>
+                                </a>
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-primary">
+                            <div class="box-header">
+                                <h3 class="box-title">协作平台</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>在线多人协作工作平台。</p>
+                                <a class="btn btn-app" href="https://lanhuapp.com/" target="_blank">
+                                    <b>蓝湖</b>
+                                    <div>在线标注、产品设计协作平台</div>
+                                </a>
+
+                                <a class="btn btn-app" href="https://shimo.im/" target="_blank">
+                                    <b>石墨文档</b>
+                                    <div>多人实时协作文档、表格</div>
+                                </a>
+                                <a class="btn btn-app" href="https://note.youdao.com/group/" target="_blank">
+                                    <b>有道云协作</b>
+                                    <div>高效团队必备工具</div>
+                                </a>
+                                <a class="btn btn-app" href="http://naotu.baidu.com/" target="_blank">
+                                    <b>百度脑图</b>
+                                    <div>在线画流程图</div>
+                                </a>
+                                <a class="btn btn-app" href="https://modao.cc/" target="_blank">
+                                    <b>墨刀</b>
+                                    <div>强大易用的原型设计与协同工具</div>
+                                </a>
+                                <a class="btn btn-app" href="https://mubu.com/" target="_blank" title="">
+                                    <b>幕布</b>
+                                    <div>清单/思维导图软件</div>
+                                </a>
+
+                                <!--
+                                  <a class="btn btn-app" href="" target="_blank" title="">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                  </a>
+                                -->
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-success">
+                            <div class="box-header">
+                                <h3 class="box-title">站长工具</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>为网站站长提供便利的工具。</p>
+
+                                <a class="btn btn-app" href="http://www.uyan.cc" target="_blank">
+                                    <b>友言</b>
+                                    <div>帮助您的网站增加社交评论功能模块</div>
+                                </a>
+                                <a class="btn btn-app" href="https://livere.com/" target="_blank">
+                                    <b>来必力</b>
+                                    <div>韩国的网站社交评论功能模块</div>
+                                </a>
+                                <a class="btn btn-app" href="http://share.baidu.com/" target="_blank">
+                                    <b>百度分享</b>
+                                    <div>百度分享</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.jiathis.com/" target="_blank">
+                                    <b>Jia This</b>
+                                    <div>提供分享到微博、QQ、人人等代码</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.appbsl.com/" target="_blank">
+                                    <b>变色龙</b>
+                                    <div>网站打包App</div>
+                                </a>
+                                <!--
               <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-success">
-            <div class="box-header">
-              <h3 class="box-title">站长工具</h3>
-            </div>
-            <div class="box-body">
-              <p>为网站站长提供便利的工具。</p>
-              
-              <a class="btn btn-app" href="http://www.uyan.cc" target="_blank">
-                <b>友言</b>
-                <div>帮助您的网站增加社交评论功能模块</div>
-              </a>
-               <a class="btn btn-app" href="http://share.baidu.com/" target="_blank">
-                <b>百度分享</b>
-                <div>百度分享</div>
-              </a>
-              <a class="btn btn-app" href="http://www.jiathis.com/" target="_blank">
-                <b>Jia This</b>
-                <div>提供分享到微博、QQ、人人等代码</div>
-              </a>
-               <a class="btn btn-app" href="https://www.appbsl.com/" target="_blank">
-                <b>变色龙</b>
-                <div>网站打包App</div>
-              </a>
-<!--
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
--->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        
-        <div class="col-md-12">
-          <!-- Application buttons -->
-          <div class="box box-warning">
-            <div class="box-header">
-              <h3 class="box-title">前端框架</h3>
-            </div>
-            <div class="box-body">
-              <p>各种前端html/css框架收录。</p>
-              
-                <a class="btn btn-app" href="http://www.bootcss.com/" target="_blank">
-                <b>Bootstrap</b>
-                <div>简洁、直观、强悍的前端开发框架</div>
-              </a>
-              <a class="btn btn-app" href="http://jqweui.com/" target="_blank">
-                <b>jQuery WeUI</b>
-                <div>微信公众号开发的瑞士军刀</div>
-              </a>
-              <a class="btn btn-app" href="http://frozenui.github.io/" target="_blank">
-                <b>Frozen UI</b>
-                <div>为移动端服务的前端框架</div>
-              </a>
-                <a class="btn btn-app" href="http://www.layui.com/" target="_blank">
-                <b>Layui</b>
-                <div>经典模块化前端框架</div>
-              </a>
-              <a class="btn btn-app" href="http://amazeui.org/" target="_blank">
-                <b>Amaze UI</b>
-                <div>中国首个开源 HTML5 跨屏前端框架</div>
-              </a>
-              <a class="btn btn-app" href="http://framework7.cn/" target="_blank">
-                <b>Framework7</b>
-                <div>构建精美的iOS & Android 应用</div>
-              </a>
-              <a class="btn btn-app" href="http://sui.taobao.org/sui/docs/" target="_blank">
-                <b>SUI</b>
-                <div>基于bootstrap开发的前端组件库</div>
-              </a>
-              <a class="btn btn-app" href="http://m.sui.taobao.org/" target="_blank">
-                <b>SUI Mobile</b>
-                <div>基于 Framework7 开发的UI库</div>
-              </a>
-                <a class="btn btn-app" href="http://www.ydui.org/" target="_blank">
-                <b>YDUI Touch</b>
-                <div>注重审美，性能高效的移动端&微信UI</div>
-              </a>
-              <a class="btn btn-app" href="https://didi.github.io/" target="_blank">
-                <b>Cube Ui</b>
-                <div>基于 Vue.js 实现的精致移动端组件库</div>
-              </a>
-               <a class="btn btn-app" href="http://dcloud.io/mui.html" target="_blank">
-                <b>MUI</b>
-                <div>最接近原生App体验的前端框架</div>
-              </a>
-              <a class="btn btn-app" href="http://www.h-ui.net/" target="_blank">
-                <b>H-ui</b>
-                <div>轻量级前端框架</div>
-              </a>
-              <a class="btn btn-app" href="http://www.getuikit.net/" target="_blank">
-                <b>uikit</b>
-                <div>一款轻量级、模块化的前端框架</div>
-              </a>
-              <a class="btn btn-app" href="http://aliceui.github.io/" target="_blank">
-                <b>Aliceui</b>
-                <div>支付宝的样式解决方案</div>
-              </a>
-<!--
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+
+                    <div class="col-md-12">
+                        <!-- Application buttons -->
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <h3 class="box-title">前端框架</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>各种前端html/css框架收录。</p>
+
+                                <a class="btn btn-app" href="http://www.bootcss.com/" target="_blank">
+                                    <b>Bootstrap</b>
+                                    <div>简洁、直观、强悍的前端开发框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://jqweui.com/" target="_blank">
+                                    <b>jQuery WeUI</b>
+                                    <div>微信公众号开发的瑞士军刀</div>
+                                </a>
+                                <a class="btn btn-app" href="http://frozenui.github.io/" target="_blank">
+                                    <b>Frozen UI</b>
+                                    <div>为移动端服务的前端框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.layui.com/" target="_blank">
+                                    <b>Layui</b>
+                                    <div>经典模块化前端框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://amazeui.org/" target="_blank">
+                                    <b>Amaze UI</b>
+                                    <div>中国首个开源 HTML5 跨屏前端框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://framework7.cn/" target="_blank">
+                                    <b>Framework7</b>
+                                    <div>构建精美的iOS & Android 应用</div>
+                                </a>
+                                <a class="btn btn-app" href="http://sui.taobao.org/sui/docs/" target="_blank">
+                                    <b>SUI</b>
+                                    <div>基于bootstrap开发的前端组件库</div>
+                                </a>
+                                <a class="btn btn-app" href="http://m.sui.taobao.org/" target="_blank">
+                                    <b>SUI Mobile</b>
+                                    <div>基于 Framework7 开发的UI库</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.ydui.org/" target="_blank">
+                                    <b>YDUI Touch</b>
+                                    <div>注重审美，性能高效的移动端&微信UI</div>
+                                </a>
+                                <a class="btn btn-app" href="https://didi.github.io/" target="_blank">
+                                    <b>Cube Ui</b>
+                                    <div>基于 Vue.js 实现的精致移动端组件库</div>
+                                </a>
+                                <a class="btn btn-app" href="http://dcloud.io/mui.html" target="_blank">
+                                    <b>MUI</b>
+                                    <div>最接近原生App体验的前端框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.h-ui.net/" target="_blank">
+                                    <b>H-ui</b>
+                                    <div>轻量级前端框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.getuikit.net/" target="_blank">
+                                    <b>uikit</b>
+                                    <div>一款轻量级、模块化的前端框架</div>
+                                </a>
+                                <a class="btn btn-app" href="http://aliceui.github.io/" target="_blank">
+                                    <b>Aliceui</b>
+                                    <div>支付宝的样式解决方案</div>
+                                </a>
+                                <!--
                <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-warning">
-            <div class="box-header">
-              <h3 class="box-title">插件素材</h3>
-            </div>
-            <div class="box-body">
-              <p>一些提供插件下载的网站。</p>
-              
-              <a class="btn btn-app" href="http://www.jq22.com/" target="_blank">
-                <b>JQ22</b>
-                <div>大量插件、模板</div>
-              </a>
-              <a class="btn btn-app" href="http://www.htmleaf.com" target="_blank">
-                <b>Jquery之家</b>
-                <div>免费提供各种前端优质插件素材</div>
-              </a>
-              <a class="btn btn-app" href="http://www.17sucai.com/" target="_blank">
-                <b>17素材</b>
-                <div>大量插件、模板</div>
-              </a>
-              <a class="btn btn-app" href="http://www.swiper.com.cn/" target="_blank">
-                <b>Swiper</b>
-                <div>强大的触摸/滑动/幻灯片插件</div>
-              </a>
-              <a class="btn btn-app" href="https://www.helloweba.com/" target="_blank">
-                <b>Helloweba</b>
-                <div>提供优质文章及相关素材代码</div>
-              </a>
-              <a class="btn btn-app" href="http://www.lanrenzhijia.com/" target="_blank">
-                <b>懒人之家</b>
-                <div>JS网页特效代码收集</div>
-              </a>
-              <a class="btn btn-app" href="" target="_blank">
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <h3 class="box-title">插件素材</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>一些提供插件下载的网站。</p>
+
+                                <a class="btn btn-app" href="http://www.jq22.com/" target="_blank">
+                                    <b>JQ22</b>
+                                    <div>大量插件、模板</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.htmleaf.com" target="_blank">
+                                    <b>Jquery之家</b>
+                                    <div>免费提供各种前端优质插件素材</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.17sucai.com/" target="_blank">
+                                    <b>17素材</b>
+                                    <div>大量插件、模板</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.swiper.com.cn/" target="_blank">
+                                    <b>Swiper</b>
+                                    <div>强大的触摸/滑动/幻灯片插件</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.helloweba.com/" target="_blank">
+                                    <b>Helloweba</b>
+                                    <div>提供优质文章及相关素材代码</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.lanrenzhijia.com/" target="_blank">
+                                    <b>懒人之家</b>
+                                    <div>JS网页特效代码收集</div>
+                                </a>
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-danger">
+                            <div class="box-header">
+                                <h3 class="box-title">GitHub插件</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>不错的插件</p>
+                                <a class="btn btn-app" href="https://github.com/miniMAC/magic" target="_blank">
+                                    <b>Magic Animations</b>
+                                    <div>Css3动画库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/juliangarnier/anime" target="_blank">
+                                    <b>AnimeJS</b>
+                                    <div>轻量级的 JavaScript 动画库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/elrumordelaluz/csshake" target="_blank">
+                                    <b>CSShake</b>
+                                    <div>在网页中震荡元素的 CSS 库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/IanLunn/Hover" target="_blank">
+                                    <b>Hover.css</b>
+                                    <div>CSS 动画库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/daneden/ animate.css" target="_blank">
+                                    <b>animate.css</b>
+                                    <div>CSS3经典动画库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/LeaVerou/prefixfree" target="_blank">
+                                    <b>prefixfree.js</b>
+                                    <div>CSS3前缀解决方案</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/tipsy/bubbly-bg" target="_blank">
+                                    <b>bubbly-bg.js</b>
+                                    <div>漂亮的动态气泡背景js插件</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/LukyVj/colofilter.css" target="_blank">
+                                    <b>colofilter.css</b>
+                                    <div>图片双色调彩色滤光特效</div>
+                                </a>
+                                <a class="btn btn-app" href="https://github.com/Tencent/vConsole" target="_blank">
+                                    <b>vConsole.js</b>
+                                    <div>针对手机网页的前端开发者调试面板</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box ">
+                            <div class="box-header">
+                                <h3 class="box-title">网页模板</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>各种网页模板下载。</p>
+                                <a class="btn btn-app" href="http://www.mobanwang.com/" target="_blank">
+                                    <b>模板王</b>
+                                    <div>网页模板比较全面</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.lanrenmb.com/" target="_blank">
+                                    <b>懒人模板</b>
+                                    <div>专注移动互联网，所有模板永久免费下载！</div>
+                                </a>
+
+                                <a class="btn btn-app" href="https://w3layouts.com/" target="_blank">
+                                    <b>W3</b>
+                                    <div>免费自适应模板</div>
+                                </a>
+
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-primary">
+                            <div class="box-header">
+                                <h3 class="box-title">设计素材</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>常用设计素材网站。</p>
+                                <a class="btn btn-app" href="http://www.iconfont.cn/" target="_blank">
+                                    <b>iconfont</b>
+                                    <div>阿里妈妈矢量图标平台</div>
+                                </a>
+                                <a class="btn btn-app" href="https://icons8.cn/" target="_blank" title="icon8实现了将近58000个图标的离线图标库，在无法连接网络的时候，图标什么的分分钟搞定。">
+                                    <b>icon8在线图标库</b>
+                                    <div>将近58000个SVG/PNG的图标库</div>
+                                </a>
+                                <a class="btn btn-app" href="http://huaban.com/" target="_blank">
+                                    <b>花瓣</b>
+                                    <div>设计素材采集、收藏</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.lanrentuku.com/" target="_blank">
+                                    <b>懒人图库</b>
+                                    <div>图片素材、资源</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.zcool.com.cn/" target="_blank">
+                                    <b>站酷</b>
+                                    <div>中国人气设计师互动平台</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.lanrentuku.com/" target="_blank">
+                                    <b>懒人图库</b>
+                                    <div>图标、图片、psd免费</div>
+                                </a>
+                                <a class="btn btn-app" href="https://images.nasa.gov/" target="_blank" title="美国国家航天局的官方库，你可以搜索到图片/音频甚至视频，从此太空类的素材再也不是问题！更为良心的是，大多数图片都支持4000X3000左右的超高分辨率，感动到哭。">
+                                    <b>太空类的素材</b>
+                                    <div>美国国家航天局的官方库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://unsplash.com/" target="_blank" title="质量超高的免费图片素材库，而且无需注册，简单粗暴直接下载！">
+                                    <b>免费图片素材库</b>
+                                    <div>质量超高</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.chuangkit.com/startdesign" target="_blank" title="场景、模板非常多，像是海报、公号首图，而且每个场景都有默认尺寸，很方便">
+                                    <b>创客贴</b>
+                                    <div>一款很容易上手的平面设计工具</div>
+                                </a>
+                                <!--
+              <a class="btn btn-app" href="" target="_blank"  title="">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <h3 class="box-title">GitHub插件</h3>
-            </div>
-            <div class="box-body">
-              <p>不错的插件</p>
-              <a class="btn btn-app" href="https://github.com/miniMAC/magic" target="_blank">
-                <b>Magic Animations</b>
-                <div>Css3动画库</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/juliangarnier/anime" target="_blank">
-                <b>AnimeJS</b>
-                <div>轻量级的 JavaScript 动画库</div>
-              </a>
-               <a class="btn btn-app" href="https://github.com/elrumordelaluz/csshake" target="_blank">
-                <b>CSShake</b>
-                <div>在网页中震荡元素的 CSS 库</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/IanLunn/Hover" target="_blank">
-                <b>Hover.css</b>
-                <div>CSS 动画库</div>
-              </a>
-               <a class="btn btn-app" href="https://github.com/daneden/ animate.css" target="_blank">
-                <b>animate.css</b>
-                <div>CSS3经典动画库</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/LeaVerou/prefixfree" target="_blank">
-                <b>prefixfree.js</b>
-                <div>CSS3前缀解决方案</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/tipsy/bubbly-bg" target="_blank">
-                <b>bubbly-bg.js</b>
-                <div>漂亮的动态气泡背景js插件</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/LukyVj/colofilter.css" target="_blank">
-                <b>colofilter.css</b>
-                <div>图片双色调彩色滤光特效</div>
-              </a>
-              <a class="btn btn-app" href="https://github.com/Tencent/vConsole" target="_blank">
-                <b>vConsole.js</b>
-                <div>针对手机网页的前端开发者调试面板</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box ">
-            <div class="box-header">
-              <h3 class="box-title">网页模板</h3>
-            </div>
-            <div class="box-body">
-              <p>各种网页模板下载。</p>
-              <a class="btn btn-app" href="http://www.mobanwang.com/" target="_blank">
-                <b>模板王</b>
-                <div>网页模板比较全面</div>
-              </a>
-              <a class="btn btn-app" href="http://www.lanrenmb.com/" target="_blank">
-                <b>懒人模板</b>
-                <div>专注移动互联网，所有模板永久免费下载！</div>
-              </a>
-              
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-              
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-              
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-              
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-              
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-primary">
-            <div class="box-header">
-              <h3 class="box-title">设计素材</h3>
-            </div>
-            <div class="box-body">
-              <p>常用设计素材网站。</p>
-              <a class="btn btn-app" href="http://www.iconfont.cn/" target="_blank">
-                <b>iconfont</b>
-                <div>阿里妈妈矢量图标平台</div>
-              </a>
-              <a class="btn btn-app" href="http://huaban.com/" target="_blank">
-                <b>花瓣</b>
-                <div>设计素材采集、收藏</div>
-              </a>
-              <a class="btn btn-app" href="http://www.lanrentuku.com/" target="_blank">
-                <b>懒人图库</b>
-                <div>图片素材、资源</div>
-              </a>
-              <a class="btn btn-app" href="http://www.zcool.com.cn/" target="_blank">
-                <b>站酷</b>
-                <div>中国人气设计师互动平台</div>
-              </a>
-              <a class="btn btn-app" href="http://www.lanrentuku.com/" target="_blank">
-                <b>懒人图库</b>
-                <div>图标、图片、psd免费</div>
-              </a>
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        
-        
-        
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box  box-danger">
-            <div class="box-header">
-              <h3 class="box-title">前端教程</h3>
-            </div>
-            <div class="box-body">
-              <p>介绍。</p>
-              <a class="btn btn-app" href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool" target="_blank">
-                <b>Flex布局教程</b>
-                <div>语法篇</div>
-              </a>
-              <a class="btn btn-app" href="https://amwiki.org/doc/?file=020-%E6%95%99%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AF%87/005-%E5%AD%A6%E4%B9%A0markdown/01-Markdown%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B" target="_blank">
-                <b>Markdown语法</b>
-                <div>Markdown快速开始</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">CDN公共库</h3>
-            </div>
-            <div class="box-body">
-              <p>介绍。</p>
-              <a class="btn btn-app" href="http://cdn.code.baidu.com/" target="_blank">
-                <b>百度</b>
-                <div>百度静态资源公共库</div>
-              </a>
-              <a class="btn btn-app" href="https://www.staticfile.org/" target="_blank">
-                <b>七牛</b>
-                <div>JS库</div>
-              </a>
-              
-              <a class="btn btn-app" href="http://libs.useso.com/" target="_blank">
-                <b>360前端公共库</b>
-                <div>常用前端公共库</div>
-              </a>
-               <a class="btn btn-app" href="http://www.bootcdn.cn/" target="_blank">
-                <b>BootCDN</b>
-                <div>稳定、快速、免费</div>
-              </a>
-              <a class="btn btn-app" href="https://cdn.baomitu.com/index/fonts" target="_blank">
-                <b>前端静态资源库</b>
-                <div>Google 字体库</div>
-              </a>
-              
-<!--
+-->
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box  box-danger">
+                            <div class="box-header">
+                                <h3 class="box-title">前端教程</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>介绍。</p>
+                                <a class="btn btn-app" href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool" target="_blank">
+                                    <b>Flex布局教程</b>
+                                    <div>语法篇</div>
+                                </a>
+                                <a class="btn btn-app" href="https://amwiki.org/doc/?file=020-%E6%95%99%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AF%87/005-%E5%AD%A6%E4%B9%A0markdown/01-Markdown%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B" target="_blank">
+                                    <b>Markdown语法</b>
+                                    <div>Markdown快速开始</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title">CDN公共库</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>介绍。</p>
+                                <a class="btn btn-app" href="http://cdn.code.baidu.com/" target="_blank">
+                                    <b>百度</b>
+                                    <div>百度静态资源公共库</div>
+                                </a>
+                                <a class="btn btn-app" href="https://www.staticfile.org/" target="_blank">
+                                    <b>七牛</b>
+                                    <div>JS库</div>
+                                </a>
+
+                                <a class="btn btn-app" href="http://libs.useso.com/" target="_blank">
+                                    <b>360前端公共库</b>
+                                    <div>常用前端公共库</div>
+                                </a>
+                                <a class="btn btn-app" href="http://www.bootcdn.cn/" target="_blank">
+                                    <b>BootCDN</b>
+                                    <div>稳定、快速、免费</div>
+                                </a>
+                                <a class="btn btn-app" href="https://cdn.baomitu.com/index/fonts" target="_blank">
+                                    <b>前端静态资源库</b>
+                                    <div>Google 字体库</div>
+                                </a>
+
+                                <!--
               <a class="btn btn-app" href="" target="_blank">
                 <b>名称</b>
                 <div>介绍</div>
               </a>
              
 -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-warning">
-            <div class="box-header">
-              <h3 class="box-title">图标字体库</h3>
-            </div>
-            <div class="box-body">
-              <p>字体、图标。</p>
-              <a class="btn btn-app" href="http://www.ionic-china.com/ionicons/index.html" target="_blank">
-                <b>ionicons</b>
-                <div>ionic框架的图标字体.
-</div>
-              </a>
-              <a class="btn btn-app" href="http://fontawesome.dashgame.com/" target="_blank">
-                <b>Font Awesome</b>
-                <div>一套绝佳的图标字体库和CSS框架</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <div class="col-md-6">
-          <!-- Application buttons -->
-          <div class="box box-primary">
-            <div class="box-header">
-              <h3 class="box-title">娱乐</h3>
-            </div>
-            <div class="box-body">
-              <p>放松、减压。</p>
-              <a class="btn btn-app" href="http://likexia.gitee.io/mikutap/mikutap/index.html" target="_blank">
-                <b>mikutap</b>
-                <div>音量调大，点击键盘、鼠标</div>
-              </a>
-              <a class="btn btn-app" href="" target="_blank">
-                <b>名称</b>
-                <div>介绍</div>
-              </a>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        
-     </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <h3 class="box-title">图标字体库</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>字体、图标。</p>
+                                <a class="btn btn-app" href="http://www.ionic-china.com/ionicons/index.html" target="_blank">
+                                    <b>ionicons</b>
+                                    <div>ionic框架的图标字体.
+                                    </div>
+                                </a>
+                                <a class="btn btn-app" href="http://fontawesome.dashgame.com/" target="_blank">
+                                    <b>Font Awesome</b>
+                                    <div>一套绝佳的图标字体库和CSS框架</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-primary">
+                            <div class="box-header">
+                                <h3 class="box-title">微信公众平台辅助</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>方便微信公众号运营者编辑文章内容。</p>
 
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+                                <a class="btn btn-app" href="http://www.135editor.com/" target="_blank">
+                                    <b>135编辑器</b>
+                                    <div>微信公众号文章编辑利器</div>
+                                </a>
+                                <a class="btn btn-app" href="http://bj.96weixin.com/" target="_blank">
+                                    <b>96微信编辑器</b>
+                                    <div>微信编辑器</div>
+                                </a>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Application buttons -->
+                        <div class="box box-success">
+                            <div class="box-header">
+                                <h3 class="box-title">标题</h3>
+                            </div>
+                            <div class="box-body">
+                                <p>介绍。</p>
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
 
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="pull-right hidden-xs">
-      Anything you want
-    </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2017 <a href="#">Company</a>.</strong> All rights reserved.
-  </footer>
+                                <!--
+                                <a class="btn btn-app" href="" target="_blank">
+                                    <b>名称</b>
+                                    <div>介绍</div>
+                                </a>
+-->
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
 
-  <!-- Add the sidebar's background. This div must be placed
+                </div>
+
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="pull-right hidden-xs">
+                Anything you want
+            </div>
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2017 <a href="#">Company</a>.</strong> All rights reserved.
+        </footer>
+
+        <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
-</div>
-<!-- ./wrapper -->
+        <div class="control-sidebar-bg"></div>
+    </div>
+    <!-- ./wrapper -->
 
-<!-- REQUIRED JS SCRIPTS -->
+    <!-- REQUIRED JS SCRIPTS -->
 
-<!-- jQuery 2.2.0 -->
-<script src="plugins/jQuery/jQuery-2.2.0.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/app.min.js"></script>
+    <!-- jQuery 2.2.0 -->
+    <script src="plugins/jQuery/jQuery-2.2.0.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js"></script>
 
-<!-- Optionally, you can add Slimscroll and FastClick plugins.
+    <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the
      fixed layout. -->
 </body>
+
 </html>

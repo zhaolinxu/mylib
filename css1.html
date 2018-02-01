@@ -229,28 +229,6 @@ main{
   margin-top: -9em; 
 margin-left: -5em;
 }</xmp>
-           <h3>父元素已知宽高</h3>
-           <xmp>{
-   border: 1px solid #465468;
-   width: 500px;
-   height: 400px;
-   display: -webkit-box;//将此元素及其直系子代加入弹性框模型中
-   -webkit-box-pack: center;//设置沿 box-orient 轴的父元素中子元素的排列方式。
-   -webkit-box-align: center;//设置框的子代在框中的排列方式,如果方向是水平的，该属性就会决定垂直排列
-}</xmp>
-           <h3>父元素宽高已知未知均可</h3>
-           <xmp>div {
-     display: table-cell;
-     vertical-align: middle;
-     text-align: center;
-}
-img {
-     vertical-align: middle;
-}</xmp>
-           <h3></h3>
-           <xmp></xmp>
-           <h3></h3>
-           <xmp></xmp>
             </div>
             <!-- /.box-body -->
           </div>
@@ -683,7 +661,7 @@ body{
         <div class="col-md-6">
           <div class="box box-success collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title">半透明背景，兼容ie</h3>
+              <h3 class="box-title">CSS3 [attribute*=value] 选择器</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
@@ -693,11 +671,10 @@ body{
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <xmp>.touming {
-	background: rgba(0, 0, 0, 0.5) !important;
-	background: #000;
-	filter: alpha(opacity=50);
-}</xmp>
+              <h3>class中含有ico-的对象</h3>
+              <xmp>[class*="ico-"] </xmp>
+            <h3>class以ico-开始的对象</h3>
+              <xmp>[class^="ico-"] </xmp>
             </div>
             <!-- /.box-body -->
           </div>
